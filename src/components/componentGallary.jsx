@@ -13,7 +13,7 @@ export default function EducationGallery() {
   const positions = [
     { top: '-5%', left: '50%', rotation: -5, size: 250, anchor: 'top' },     // top
     { top: '50%', right: '-5%', rotation: 8, size: 260, anchor: 'right' },   // right
-    { bottom: '-5%', left: '50%', rotation: 10, size: 240, anchor: 'bottom' }, // bottom
+    { bottom: '-5%', left: '20%', rotation: 10, size: 240, anchor: 'bottom' }, // bottom
     { top: '20%', left: '-5%', rotation: -8, size: 260, anchor: 'left' },    // left
     { top: '20%', left: '20%', rotation: 0, size: 220, anchor: 'center' }    // center
   ];
