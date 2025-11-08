@@ -1,0 +1,44 @@
+/* ====== Homepage Background ====== */
+body {
+  /* Soft, dynamic gradient background for calm focus */
+  background: radial-gradient(circle at top left, #a8dadc 0%, #457b9d 100%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  transition: background 0.8s ease-in-out;
+}
+
+/* ====== Gentle Background Motion ====== */
+@keyframes calmShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.homepage {
+  display: flex;
+  min-height: 100vh;
+  animation: calmShift 20s ease-in-out infinite alternate;
+}
+
+.content {
+  margin-left: 220px;
+}
+
+/* ====== Card Section (Unchanged) ====== */
+.gay {
+  position: relative;
+  width: 600px;
+  height: 500px;
+  left: 300px;
+  bottom: 75px;
+}

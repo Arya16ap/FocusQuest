@@ -1,0 +1,92 @@
+.progress-container{
+    display: flex;
+    flex-wrap: wrap;
+    position:relative;
+    left: 60px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+
+}
+.progress-container div{
+    
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+
+}
+.progress-container div h2{
+    color: rgb(91, 179, 233);
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.chart{
+    position: relative;
+    bottom: 200px;
+    background-color: black;
+    width: 1100px;
+    height: 630px;
+
+    margin-left: 110px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: rgb(91, 179, 233);
+    align-items: center;
+}
+.lesbian{
+    position: absolute;
+    top: 50px;
+    left: 475px;
+    color: white;
+    z-index: 1500;
+}
+
+.lesbian h1 {
+  transition: color 0.3s ease;
+}
+
+.lesbian h1:hover{
+    color: rgb(91, 179, 233);
+    cursor:default;
+}
+.home-button{
+    position: relative;
+    left: 550px;
+    bottom: 100px;
+}
+.home-button button {
+  padding: 17px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+  color: hsl(0, 0%, 3%);
+}
+
+.home-button button:hover {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+}
+
+.home-button button:active {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
