@@ -116,7 +116,7 @@ const StudyMatchGame = ({ level, setLevel}) => {
         <div className="win-message">
           <h3>🎉 Great job!</h3>
           <button onClick={restart}>Play Again</button>
-          {level < 3 && (
+          {level <= 3 && (
           <button onClick={() => setLevel(level + 1)} className="next-level-btn">
           Next Level →
           </button>
