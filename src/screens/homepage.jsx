@@ -3,7 +3,6 @@ import LevelMap from "../components/LevelMap.jsx";
 import "./homepage.css";
 import Sidebar from "../components/Sidebar";
 import StudyMatch from "../components/StudyMatch.jsx";
-import '../screens/progress.jsx';
 import EducationGallery from "../components/componentGallary.jsx";  
 
 

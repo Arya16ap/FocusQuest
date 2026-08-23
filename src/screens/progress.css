@@ -40,7 +40,7 @@
     color: rgb(91, 179, 233);
     align-items: center;
 }
-.lesbian{
+.progress-hint{
     position: absolute;
     top: 50px;
     left: 475px;
@@ -48,11 +48,11 @@
     z-index: 1500;
 }
 
-.lesbian h1 {
+.progress-hint h1 {
   transition: color 0.3s ease;
 }
 
-.lesbian h1:hover{
+.progress-hint h1:hover{
     color: rgb(91, 179, 233);
     cursor:default;
 }

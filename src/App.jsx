@@ -4,7 +4,6 @@ import { Routes, Route } from "react-router-dom";
 import LoginRegister from "./screens/LoginRegister";
 import Homepage from "./screens/homepage";
 import Settings from "./screens/settings";
-import { useEffect } from "react";
 import StudyMatch from "./components/StudyMatch";
 import Progress from './screens/progress';
 

@@ -27,7 +27,7 @@ function Progress(){
     return(
         <>
             <Sidebar/>
-            <div className="lesbian"><h1>Hover over me</h1></div>
+            <div className="progress-hint"><h1>Hover over me</h1></div>
 
             <div className="progress-container">
                 <div className="progress-card-1">

@@ -7,18 +7,48 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencies
 node_modules
+pnpm-lockfile
+yarn.lock
+package-lock.json
+
+# Build artifacts
 dist
 dist-ssr
 *.local
 
 # Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+.vscode/
+.idea/
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# Coverage reports
+coverage
+
+# TypeScript
+*.tsbuildinfo
+*.tsbuildinfo
+
+# Vite
+.vite/
+
+# Next.js
+.next/
+
+# React Native
+# metro-config
+
+# eslint
+.eslintcache
+
+# Preview environment
+```
